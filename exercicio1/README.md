@@ -1,8 +1,6 @@
-# React + Vite
+# Exercício 1: REACT - Criando os primeiros componentes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Crie um componente para representar o Rodapé, não esqueça de exportar e utilizar ele no componente App.
+2. Crie um componente de Postagem, deve ter nele o título da postagem, um parágrafo de descrição e uma imagem (via link).
+3. Crie um componente de Blog (dentro dele deve haver múltiplos componentes de Postagem). Não esqueça de exportar e utilizar ele no componente App.
+4. Crie um arquivo de estilos para cada componente criado por você.

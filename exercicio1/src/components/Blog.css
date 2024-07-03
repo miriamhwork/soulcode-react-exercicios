@@ -1,0 +1,11 @@
+.blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.blog-card {
+    width: 25%;
+}

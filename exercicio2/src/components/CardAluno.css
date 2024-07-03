@@ -1,0 +1,27 @@
+.card-aluno{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap: 8px;
+    margin: 32px;
+    padding: 16px;
+    width: 200px;
+}
+
+.card-aluno h3 {
+    color: #EDEDED;
+}
+
+.card-aluno p {
+    color: #EDEDED;
+}
+
+.aprovado {
+    background-color: #5D9C59;
+}
+
+.reprovado {
+    background-color: #DF2E38;
+}

@@ -1,0 +1,31 @@
+.produto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap: 8px;
+    margin: 32px;
+    padding: 16px;
+    width: 500px;
+    align-items: center;
+}
+
+.imagem-produto {
+    height: 300px;
+}
+
+.valor-desconto {
+    color: green;
+}
+
+.preco-original {
+    text-decoration: line-through;
+}
+
+.preco-desconto {
+    font-size: 2rem;
+    background-color: yellow;
+    width: 250px;
+    border-radius: 8px;
+}

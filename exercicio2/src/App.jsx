@@ -5,13 +5,13 @@ function App () {
     return (
         <>
             <section className="parte1">
-                <CardAluno aluno="Miriam" série="1º ano" media="8.5"/>
-                <CardAluno aluno="José" série="3º ano" media="7.0"/>
-                <CardAluno aluno="Maria" série="2º ano" media="5.1"/>
-                <CardAluno aluno="João" série="1º ano" media="3.7"/>
-                <CardAluno aluno="Pedro" série="3º ano" media="10.0"/>
-                <CardAluno aluno="Ana" série="1º ano" media="9.3"/>
-                <CardAluno aluno="Carol" série="2º ano" media="6.9"/>
+                <CardAluno aluno="Miriam" serie="1º ano" media="8.5"/>
+                <CardAluno aluno="José" serie="3º ano" media="7.0"/>
+                <CardAluno aluno="Maria" serie="2º ano" media="5.1"/>
+                <CardAluno aluno="João" serie="1º ano" media="3.7"/>
+                <CardAluno aluno="Pedro" serie="3º ano" media="10.0"/>
+                <CardAluno aluno="Ana" serie="1º ano" media="9.3"/>
+                <CardAluno aluno="Carol" serie="2º ano" media="6.9"/>
             </section>
             <section className="parte2">
                 <Produto 

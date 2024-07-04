@@ -1,12 +1,12 @@
-### Atividade React - Semana 4
+# Atividade React - Semana 4
 
-# Objetivo:
+### Objetivo:
 
 Criar uma página totalmente componentizada fazendo uso do React. A equipe deve escolher uma temática para construir a página utilizando os tópicos estudados na semana 04.
 
 
 
-# Instruções Gerais:
+### Instruções Gerais:
 
 - O foco deve estar na estruturação e arquitetura dos componentes;
 - A estrutura de componentes deve ser a seguinte:

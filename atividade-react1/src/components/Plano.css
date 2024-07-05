@@ -1,0 +1,35 @@
+.planos {
+  display: flex;
+  background-color: #E68369;
+  height: 20vh;
+  padding: 8px;
+}
+
+.planos-desconto {
+  background-color: #ECCEAE;
+  padding: 8px;
+  border-radius: 32px;
+  width: 300px;
+  margin: 32px auto;
+  align-items: center;
+}
+
+.planos-desconto p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.planos-desconto h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.grifado {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.desconto {
+  color: green;
+}
+

@@ -20,7 +20,7 @@ Criar uma página totalmente componentizada fazendo uso do React. A equipe deve 
 - O componente <Cabecalho> deve ter um botão de “Entrar” que ao ser clicado exibe um alerta no navegador 
 (veja em Respondendo a Eventos – React: https://pt-br.react.dev/learn/responding-to-events)
 
-# Requisitos:
+### Requisitos:
 - Componentes;
 - Estilização CSS com React;
 - Props;

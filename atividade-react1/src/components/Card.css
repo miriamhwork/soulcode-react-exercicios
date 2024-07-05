@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+.card-filme {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-filme p {
+    font-size: 1rem;
+}
+
+.card-filme img {
+    height: 500px;
+    border-radius: 32px;
+}
+
+.card-filme img:hover {
+    color: white;
+    box-shadow: 0 0 30px 10px #181D31;
+}

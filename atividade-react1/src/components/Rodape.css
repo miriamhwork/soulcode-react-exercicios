@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+footer {
+    display: flex;
+    background-color: #181D31;
+    color: #FBF6E2;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+    justify-content: center;
+    gap: 32px;
+}
+
+footer h2 {
+    color: #E68369;
+    font-family: "Suez One", serif;
+    font-size: 3rem;
+    text-shadow: -5px 3px #e762416b;
+    padding: 8px;
+}
+
+footer h3 {
+    color: #E68369;
+    font-family: "Suez One", serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ECCEAE;
+    font-size: 1.3rem;
+}
+
+footer li {
+    list-style: none;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+.footer-logo {
+    width: 20%;
+}
+
+.footer-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-items: center;
+}
+
+.footer-redes a {
+    background-color: #ECCEAE;
+    border-radius: 16px;
+}
+
+.footer-redes div {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 16px;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+}
+
+.footer-direitos{
+    text: center;
+}
+
+.direitos {
+    display: flex;    
+    justify-content: center;
+}
+
+footer a:hover {
+    color: #E68369;
+    text-shadow: -2px 2px #e762416b;
+}

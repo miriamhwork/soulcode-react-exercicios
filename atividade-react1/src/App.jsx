@@ -11,8 +11,8 @@ function App() {
         <Banner />
         <Galeria />
         <section className="planos">
-          <Planos nome="Mensal" valor={59.99} desconto={0}/>
-          <Planos nome="Anual" valor={299.99} desconto={10}/>
+          <Planos nome="MENSAL" valor={29.99} desconto={0}/>
+          <Planos nome="ANUAL" valor={359.99} desconto={20}/>
         </section>
         <Rodape />
     </>

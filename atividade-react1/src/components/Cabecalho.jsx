@@ -14,7 +14,7 @@ function Cabecalho() {
                 <li><a href="#">Ajuda</a></li>
                 <li>
                     <a href="#" onClick={() => {
-                    alert('Você entrou para o Code+');}}>
+                    alert('Login realizado com sucesso!');}}>
                     Entrar
                     </a>
                 </li>

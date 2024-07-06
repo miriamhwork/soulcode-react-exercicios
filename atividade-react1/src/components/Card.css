@@ -3,7 +3,7 @@
     gap: 32px;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 32px;
+    padding: 48px;
 }
 
 .card-filme {
@@ -11,12 +11,18 @@
     flex-direction: column;
 }
 
+.card-filme h4 {
+    font-size: 2rem;
+    padding-top: 16px;
+}
+
 .card-filme p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: 8px 0px;
 }
 
 .card-filme img {
-    height: 500px;
+    height: 600px;
     border-radius: 32px;
 }
 

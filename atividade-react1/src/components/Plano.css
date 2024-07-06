@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
 .planos {
   display: flex;
-  background-color: #E68369;
-  height: 20vh;
+  background-color: #ECCEAE;
+  height: 40vh;
   padding: 8px;
+  gap: 15%;
+  justify-content: center;
+  align-items: center;
+  color:#181D31;
 }
 
 .planos-desconto {
-  background-color: #ECCEAE;
-  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E68369;
   border-radius: 32px;
-  width: 300px;
-  margin: 32px auto;
-  align-items: center;
+  width: 20%;
+  height: 80%;
+  justify-content: center;
+  gap: 8px;
 }
 
 .planos-desconto p {
@@ -19,17 +27,31 @@
   text-align: center;
 }
 
-.planos-desconto h4 {
+.planos-desconto h2 {
   font-size: 2rem;
+  font-family: "Suez One", serif;
+  text-align: center;
+  padding: 16px 0px;
+}
+
+.planos-desconto h4 {
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .grifado {
   text-decoration: line-through;
-  color: grey;
+  color: #FBF6E2;
 }
 
 .desconto {
-  color: green;
+  color: #DEF9C4;
+  text-shadow: 2px 2px #468585;
 }
 
+.sessao-desconto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}

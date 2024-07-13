@@ -1,15 +1,15 @@
-# Atividade React 
+# Acesse o deploy do projeto
+>>> https://code-plus-ten.vercel.app/
 
+____________________________________________________________________
 
-## Parte 1 - semana 4
+## Atividade de React
+### Parte 1 - semana 4
 
+#### Objetivo:
+Criar uma página totalmente componentizada fazendo uso do React. 
 
-### Objetivo:
-
-Criar uma página totalmente componentizada fazendo uso do React. A equipe deve escolher uma temática para construir a página utilizando os tópicos estudados na semana 04.
-
-### Instruções Gerais:
-
+#### Instruções Gerais:
 - O foco deve estar na estruturação e arquitetura dos componentes;
 - A estrutura de componentes deve ser a seguinte:
 - <App>: componente principal e pai de todos os componentes da aplicação;
@@ -19,30 +19,22 @@ Criar uma página totalmente componentizada fazendo uso do React. A equipe deve 
     - <Card>: componente que representa o card relacionado a temática
     - <Rodape>: informações sobre a temática escolhida
 - O componente <Galeria> deve utilizar a ideia de map, para gerar a lista de Cards de acordo com um array de objetos
-- O componente <Cabecalho> deve ter um botão de “Entrar” que ao ser clicado exibe um alerta no navegador 
-(veja em Respondendo a Eventos – React: https://pt-br.react.dev/learn/responding-to-events)
+- O componente <Cabecalho> deve ter um botão de “Entrar” que ao ser clicado exibe um alerta no navegador.
 
-
-### Requisitos:
+#### Requisitos:
 - Componentes;
 - Estilização CSS com React;
 - Props;
 - Renderização condicional;
 - Listas e Eventos;
 
+____________________________________________________________________
 
+### Parte 2 - semana 5
+#### Objetivo:
+Fazer uso das bibliotecas react-router-dom, react-bootstrap e react-hook-form.
 
-## Parte 2 - semana 5
-
-
-### Objetivo:
-
-Fazer uso das bibliotecas react-router-dom, react-bootstrap e react-hook-form trabalhadas na semana 05. 
-
-
-### Instruções Gerais:
-
-A base do projeto da semana 04 pode ser utilizado neste (reaproveitado)
+#### Instruções Gerais:
 O foco deve estar no uso das bibliotecas de navegação, Bootstrap e formulários
 Rotas (com links na Navbar/Menu da aplicação)
     <Home>: tela inicial demonstrando a aplicação (aqui mantém a estrutura da página da semana 04)
@@ -53,9 +45,7 @@ Rotas (com links na Navbar/Menu da aplicação)
 Dentro deve haver um botão que volta para a Home
 Entrega via repositório no Github
 
-
 ### Requisitos:
-
 Navegação com React Router
 Componentes do React e Bootstrap
 Formulários com React Hook Form

@@ -1,4 +1,5 @@
 import Card from "./Card";
+import { Row, Col } from 'react-bootstrap';
 
 const filmes = [
     {cod: 1, 
@@ -13,13 +14,27 @@ const filmes = [
 ];
 
 function Galeria() {
-    const listaFilmes = filmes.map((filme) => {
-        return <Card key={filme.cod} imagem={filme.imagem} imagemDesc={filme.imagemDesc} nome={filme.nomeFilme} genero={filme.genero} direcao={filme.direcao} dataLancam={filme.data} tempo={filme.duracao}/>
-    });
+    const listaFilmes = filmes.map((filme) => (
+        <Col>
+            <Card
+                key={filme.cod}
+                imagem={filme.imagem}
+                imagemDesc={filme.imagemDesc}
+                nome={filme.nomeFilme}
+                genero={filme.genero}
+                direcao={filme.direcao}
+                dataLancam={filme.data}
+                tempo={filme.duracao}
+            />
+        </Col>
+    ));
 
     return (
-        <section className="card">{listaFilmes}</section>
+        <Row>
+            {listaFilmes}
+        </Row>
     );
 }
+
 
 export default Galeria;

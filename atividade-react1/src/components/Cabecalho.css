@@ -1,49 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 
 .cabecalho {
-    display: flex;
-    align-items: center;
-    background-color: #181D31;
-    gap: 32px;
-    justify-content: space-between;
-    padding: 32px;
-    flex-wrap: wrap;
     font-family: "Suez One", serif;
-}
-
-.cabecalho-logo {
-    display: flex;
-    flex-direction: row-reverse;
-    height: 50px;
-    gap: 8px;
 }
 
 .cabecalho h1 {
     color: #E68369;
-    font-size: 3rem;
-    text-shadow: -5px 3px #e762416b;
-}
-
-.navbar {
-    display: flex;
-    list-style: none;
-    gap: 50px;
+    font-size: 1.5rem;
+    text-shadow: -5px 3px #E762416B;
 }
 
 .cabecalho a {
     text-decoration: none;
-    color: #ECCEAE;
-    font-size: 1.5rem;
+    color: #EEEDEB;
+    font-size: 1.2rem;
     padding: 1rem;
 }
 
-.cabecalho img {
-    width: auto;
+.cabecalho a:hover {
+    color: #E68369;
+    text-shadow: -2px 2px #E762416B;
 }
 
-a:hover {
-    color: #E68369;
-    border-radius: 16px;
-    text-shadow: -2px 2px #e762416b;
-}
 

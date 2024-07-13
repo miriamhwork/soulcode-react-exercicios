@@ -2,9 +2,8 @@
 
 .planos {
   display: flex;
-  background-color: #ECCEAE;
+  background-color: #E68369;
   height: 40vh;
-  padding: 8px;
   gap: 15%;
   justify-content: center;
   align-items: center;
@@ -13,40 +12,41 @@
 
 .planos-desconto {
   display: flex;
+  background-color: #EEEDEB;
   flex-direction: column;
-  background-color: #E68369;
   border-radius: 32px;
   width: 20%;
-  height: 80%;
+  height: 75%;
   justify-content: center;
   gap: 8px;
+  align-items: center;
 }
 
 .planos-desconto p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .planos-desconto h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Suez One", serif;
   text-align: center;
-  padding: 16px 0px;
 }
 
 .planos-desconto h4 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .grifado {
   text-decoration: line-through;
-  color: #FBF6E2;
+  color: #be3b17;
+  text-shadow: 2px 2px rgba(223, 24, 24, 0.212)
 }
 
 .desconto {
-  color: #DEF9C4;
-  text-shadow: 2px 2px #468585;
+  color: #20754d;
+  text-shadow: 2px 2px rgb(75, 214, 86);
 }
 
 .sessao-desconto {

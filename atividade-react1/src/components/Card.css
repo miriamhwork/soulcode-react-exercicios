@@ -1,28 +1,14 @@
-.card{
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 48px;
-}
-
-.card-filme {
-    display: flex;
-    flex-direction: column;
-}
-
 .card-filme h4 {
-    font-size: 2rem;
     padding-top: 16px;
 }
 
 .card-filme p {
-    font-size: 1.5rem;
-    padding: 8px 0px;
+    padding: 4px 0px;
 }
 
 .card-filme img {
-    height: 600px;
+    height: 400px;
+    width: 300px;
     border-radius: 32px;
 }
 
